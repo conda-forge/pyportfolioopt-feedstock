@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@atrawog](https://github.com/atrawog/)
+* [@timkpaine](https://github.com/timkpaine/)
 
