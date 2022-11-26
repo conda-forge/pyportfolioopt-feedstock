@@ -18,9 +18,9 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6,<4.0
+    - python >=3.6,<3.11
   run:
-    - python >=3.6,<4.0
+    - python >=3.6,<3.11
     - cvxpy >=1.1.10,<2
     - cvxopt >=1.2,<2.0
     - numpy >=1.12,<2.0
