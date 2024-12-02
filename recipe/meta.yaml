@@ -1,13 +1,13 @@
 {% set name = "pyportfolioopt" %}
-{% set version = "1.5.5" %}
+{% set version = "1.5.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyportfolioopt-{{ version }}.tar.gz
-  sha256: 371ade1fed1deeea7042ba3178b3cf9aac9cd0b1700e949cab8a8c2e72e5566a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyportfolioopt-{{ version }}.tar.gz
+  sha256: 7e94f41c84fb5865c7a64de995a3ba580188f3ba494f6dfbc02721b5de323f6e
 
 build:
   noarch: python
