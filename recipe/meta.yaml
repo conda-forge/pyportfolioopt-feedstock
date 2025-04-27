@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -22,14 +22,13 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - cvxpy >=1.1.19,<2
-    - cvxopt >=1.2,<2
-    - numpy >=1.22,<2
+    - cvxpy >=1.1.19
+    - numpy >=1.26.0
     - pandas >=0.19
-    - scipy >=1.3,<2
+    - scipy >=1.3
   run_constrained:
-    - matplotlib-base >=3.2,<4
-    - scikit-learn >=0.24,<2
+    - matplotlib-base >=3.2
+    - scikit-learn >=0.24.1
 
 test:
   imports:
