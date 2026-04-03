@@ -24,6 +24,7 @@ requirements:
     - cvxpy >=1.1.19
     - numpy >=1.26.0
     - pandas >=1.0.0
+    - packaging
     - scikit-base <0.14.0
     - scikit-learn >=0.24.1
     - scipy >=1.3
