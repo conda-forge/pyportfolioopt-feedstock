@@ -17,14 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - poetry
     - python {{ python_min }}
-    - setuptools
+    - setuptools >=78.1.1
   run:
     - python >={{ python_min }}
     - cvxpy >=1.1.19
     - numpy >=1.26.0
-    - pandas >=0.19
+    - pandas >=1.0.0
     - scikit-base <0.14.0
     - scikit-learn >=0.24.1
     - scipy >=1.3
