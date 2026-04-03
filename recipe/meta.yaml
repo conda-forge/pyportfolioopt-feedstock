@@ -43,7 +43,7 @@ about:
   home: https://github.com/robertmartin8/PyPortfolioOpt
   summary: Financial portfolio optimization in python
   license: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
